@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d256370e468bd2b88bdfa34885b2760",
+    "content-hash": "fb7dcecf9db2912c60e9298f4be14e21",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -4879,6 +4879,45 @@
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "time": "2019-12-13T12:03:22+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "0.12.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "71a20c18f06c53605251a00a8efe443fa85225d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/71a20c18f06c53605251a00a8efe443fa85225d1",
+                "reference": "71a20c18f06c53605251a00a8efe443fa85225d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.12-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "time": "2020-01-12T14:31:21+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
